@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "SupportChatQueueSystem.ChatController",
+    "Method": "Poll",
+    "RelativePath": "api/chat/poll/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupportChatQueueSystem.ChatController",
+    "Method": "ChangeShift",
+    "RelativePath": "api/chat/shift/{shift}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shift",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupportChatQueueSystem.ChatController",
+    "Method": "StartChat",
+    "RelativePath": "api/chat/start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "isOfficeHours",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
